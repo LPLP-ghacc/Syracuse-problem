@@ -33,10 +33,10 @@ namespace Syracuse_problem
             return values;
         }
 
-        private LineSeries GetNewLineSeries(int maxSteps, int maxValue)
+        private LineSeries GetNewLineSeries(int maxSteps, int minValue, int maxValue)
         {
             var random = new Random();
-            double number = random.Next(0, maxValue);
+            double number = random.Next(minValue, maxValue);
 
             var line = new LineSeries
             {
@@ -54,7 +54,7 @@ namespace Syracuse_problem
                 SeriesCollection.Clear();
             }
 
-            SeriesCollection.Add(GetNewLineSeries(150, 1000));
+            SeriesCollection.Add(GetNewLineSeries(150, -1000, 0));
         }
     }
 }
