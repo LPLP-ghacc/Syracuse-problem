@@ -2,6 +2,7 @@
 using LiveCharts;
 using System;
 using System.Windows;
+using System.Threading.Tasks;
 
 namespace Syracuse_problem
 {
@@ -49,12 +50,23 @@ namespace Syracuse_problem
 
         private void generateButton_Click(object sender, RoutedEventArgs e)
         {
+            Generate();
+        }
+
+        public void Generate()
+        {
+            GC.Collect();
+
             if (ClearCB.IsChecked.Value)
             {
                 SeriesCollection.Clear();
             }
 
-            SeriesCollection.Add(GetNewLineSeries(150, -1000, 0));
+            int minValue = int.Parse(minTextBox.Text);
+            int maxValue = int.Parse(maxTextBox.Text);
+            int steps = int.Parse(stepCountTextBox.Text);
+
+            SeriesCollection.Add(GetNewLineSeries(steps, minValue, maxValue));
         }
     }
 }

@@ -20,5 +20,11 @@
         </lvc:CartesianChart>
         <Button Grid.Row="0" x:Name="generateButton" Content="Generate" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="106" Click="generateButton_Click"/>
         <CheckBox Grid.Row="0" x:Name="ClearCB" Content="Clear" HorizontalAlignment="Left" Margin="121,12,0,0" VerticalAlignment="Top" Width="81"/>
+        <TextBox Grid.Row="0" x:Name="minTextBox" HorizontalAlignment="Left" Margin="183,0,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Center" Width="120"/>
+        <TextBlock Grid.Row="0" x:Name="minValueTB" HorizontalAlignment="Left" Margin="183,12,0,0" TextWrapping="Wrap" Text="Minimum value" VerticalAlignment="Top" Width="120"/>
+        <TextBox Grid.Row="0" x:Name="maxTextBox" HorizontalAlignment="Left" Margin="308,0,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Center" Width="120"/>
+        <TextBlock Grid.Row="0" x:Name="maxValueTB" HorizontalAlignment="Left" Margin="308,11,0,0" TextWrapping="Wrap" Text="Maximum value" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="stepCountTextBox" HorizontalAlignment="Left" Margin="453,0,0,0" TextWrapping="Wrap" Text="100" VerticalAlignment="Center" Width="120"/>
+        <TextBlock Grid.Row="0" x:Name="stepСountTB" HorizontalAlignment="Left" Margin="453,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Step count"/>
     </Grid>
 </Window>
