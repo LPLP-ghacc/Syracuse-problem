@@ -1,5 +1,7 @@
 # Syracuse problem
 
+<a>https://github.com/LPLP-ghacc/Syracuse-problem/tree/master/Syracuse%20problem</a>
+
 The Collatz conjecture, also known as the 3n + 1 problem or the Collatz problem, is a mathematical problem that has remained unsolved since its inception in the early 20th century. The conjecture is formulated as follows:
 
 Start with any positive integer n.
