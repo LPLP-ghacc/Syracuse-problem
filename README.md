@@ -40,3 +40,6 @@ GPU Processing: The code demonstrates the use of GPU processing through the CUDA
 Dynamic Programming: The code uses dynamic programming to generate sequences of numbers based on the "3x + 1 problem," where each number is modified based on a mathematical function.
 
 Result Tracking: It keeps track of and prints the maximum value encountered during the calculations.
+
+![image](https://github.com/LPLP-ghacc/Syracuse-problem/assets/53939350/0dfad730-59a8-4e45-965e-754b48be2fd3)
+
