@@ -14,7 +14,9 @@ The study of the Collatz conjecture remains an active area of mathematical resea
 
 ![image](https://github.com/LPLP-ghacc/Syracuse-problem/assets/53939350/ba526082-f4c3-49cb-af1f-f0d3224237cc)
 
-[PROJECT TheCollatzProblem] <a>https://github.com/LPLP-ghacc/Syracuse-problem/tree/master/TheCollatzProblem</a>
+# TheCollatzProblem
+
+<a>https://github.com/LPLP-ghacc/Syracuse-problem/tree/master/TheCollatzProblem</a>
 
 The provided code is a C# console application that performs calculations related to the "3x + 1 problem" using both CPU and GPU processing. This problem involves repeatedly applying a mathematical function to a number until it reaches the value of 1. The code finds and tracks the maximum value obtained during this process for various initial numbers.
 
