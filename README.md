@@ -12,7 +12,8 @@ Although Collatz's hypothesis may seem simple, it is of great interest in the wo
 
 The study of the Collatz conjecture remains an active area of mathematical research, and scientists continue to search for deeper properties of this sequence of numbers that might help in its solution.
 
-![image](https://github.com/LPLP-ghacc/Syracuse-problem/assets/53939350/ba526082-f4c3-49cb-af1f-f0d3224237cc)
+![image](https://github.com/LPLP-ghacc/Syracuse-problem/assets/53939350/b5c2b124-ca65-4857-9954-03220daad5d5)
+
 
 # TheCollatzProblem
 
